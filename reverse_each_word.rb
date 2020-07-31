@@ -1,7 +1,7 @@
 require "pry"
 def reverse_each_word(string)
 string = string.split(" ")
-bindng.pry
+binding.pry
 reversed = []
 string.each {|i| reversed.push(string.pop)}
 return reversed.join("")
